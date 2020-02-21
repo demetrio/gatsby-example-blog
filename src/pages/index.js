@@ -12,7 +12,7 @@ export default () => {
       <Hero />
       <Layout>
         <h1>Home</h1>
-        <p>Hello there!</p>
+        <p>You know what they say...it's hard to keep things simple.</p>
         <ReadLink to="/about/">Learn about me &rarr;</ReadLink>
 
         <h2>Read my blog</h2>

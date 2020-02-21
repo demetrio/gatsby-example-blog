@@ -32,7 +32,7 @@ const Header = () => (
     `}
   >
     <NavLink to="/" fontWeight="bold">
-      My blog
+      Gatsby Blog
     </NavLink>
     <nav
       css={css`
@@ -44,6 +44,9 @@ const Header = () => (
       </NavLink>
       <NavLink to="/about/" activeClassName="current-page">
         About
+      </NavLink>
+      <NavLink to="/contact/" activeClassName="current-page">
+        Contact
       </NavLink>
     </nav>
   </header>

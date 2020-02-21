@@ -5,7 +5,11 @@ import Layout from '../components/layout';
 export default () => (
   <Layout>
     <h1>About Me</h1>
-    <p>This is my personal website</p>
+    <p>Hi! Nice to meet you!</p>
+    <p>
+      The design, the music are my two passions! I try to always be well
+      informed of the latest news about them.
+    </p>
     <Link to="/">&larr; back to home</Link>
   </Layout>
 );
